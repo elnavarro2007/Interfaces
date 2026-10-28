@@ -1,0 +1,78 @@
+from PyQt6.QtCore import QSize, Qt
+from PyQt6.QtWidgets import QApplication, QWidget, QPushButton,QMainWindow,QLabel,QLineEdit,QVBoxLayout,QCheckBox,QComboBox,QListWidget,QAbstractItemView,QSlider,QDial,QCalendarWidget,QHBoxLayout
+from PyQt6.QtGui import QPixmap
+
+from Cuadrado import Color
+
+
+
+
+
+class MainWindow(QMainWindow): 
+
+    def __init__(self):
+      super().__init__()
+
+      
+
+      self.calendar = QCalendarWidget()
+
+      self.setWindowTitle("Mi aplicacion")
+
+      plantilla = QHBoxLayout() # la de fuera del todo
+
+
+      plantilla2 = QVBoxLayout()
+
+
+      plantilla3 = QVBoxLayout()
+
+      plantilla2.addWidget(Color("blue")) 
+      plantilla2.addWidget(Color("blue"))
+      plantilla2.addWidget(Color("blue"))
+
+      plantilla3.addWidget(Color("red")) 
+      plantilla3.addWidget(Color("red"))
+      plantilla3.addWidget(Color("green"))
+
+      plantilla.addLayout(plantilla2)
+      plantilla.addWidget(Color("yellow"))
+      plantilla.addLayout(plantilla3)
+
+
+
+      widget = QWidget()
+      widget.setLayout(plantilla)
+
+
+      self.setCentralWidget(widget)
+
+
+
+
+
+
+
+
+    def mostrarFecha(self):
+       print(self.calendar.selectedDate().toString("dd/MM/yyyy"))
+      
+
+       
+
+
+
+      
+
+
+
+
+
+app = QApplication([])
+
+window = MainWindow()
+
+
+window.show()
+
+app.exec()
