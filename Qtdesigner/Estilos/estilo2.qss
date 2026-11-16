@@ -1,0 +1,8 @@
+
+QPushButton{
+    background-color: red;
+}
+
+QPushButton#botonAceptar{
+    background-color: green;
+}

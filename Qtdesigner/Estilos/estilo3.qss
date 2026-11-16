@@ -1,0 +1,70 @@
+
+QLabel{
+    color: white;
+    font-weight: bold;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+}
+
+QLineEdit{
+        border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    
+}
+
+
+QPushButton[text="conectar"] {
+    background-color: grey;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: grey;
+    color: green;
+    margin: 30px;
+    padding : 20px;
+    color : white;
+}
+
+QPushButton[text="actualizar"]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    color : red;
+    margin: 30px;
+    padding : 20px;
+    color : white;
+}
+
+QPushButton[text="off"]{
+    background-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    color : red;
+    margin: 30px;
+    padding : 20px;
+    color : white;
+}
+
+QPushButton[text="on"]{
+    background-color: green;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    color : green;
+    margin: 30px;
+    padding : 20px;
+    color : white;
+}
+
+
+
+.QWidget{
+    background-color: grey;
+}

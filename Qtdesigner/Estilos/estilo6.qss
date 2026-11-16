@@ -1,0 +1,51 @@
+
+QPushButton:hover{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+
+}
+
+
+QPushButton:pressed{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    font-weight: bold;
+    background-color: red;
+    color: black;
+
+}
+
+QRadioButton:checked{
+    background-color: green;
+}
+
+QComboBox:on{
+    background-color: aquamarine;
+}
+QTabBar{
+    background-color: burlywood;
+    color: red;
+    font-weight: bold;
+}
+QDial{
+    background-color: blue;
+}
+
+QSlider::handle{
+    background-image: url(img/android.png);
+}
+
+.QWidget{
+    background-image: url(img/imagen.png);
+}
+
+QComboBox::down-arrow{
+    background-image: url(img/arrow-270-medium.png);
+}
