@@ -12,6 +12,8 @@ from PyQt6.QtWidgets import QMainWindow, QApplication
 
 # pip install PySide6
 # pyside6-designer
+#wordwrap
+
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
