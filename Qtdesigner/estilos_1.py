@@ -9,7 +9,7 @@ from PyQt6.QtWidgets import QMainWindow, QApplication
 #.\activate
 #pip install PyQt6
 # pyuic6 Ej1.ui -o Ej1.py 
-
+# python, qt for python, pyqtIntegration
 # pip install PySide6
 # pyside6-designer
 #wordwrap
